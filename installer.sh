@@ -7,6 +7,7 @@ echo "alias searx='bash ~/searx/searx.sh'" >> .bashrc
 touch .bashrc
 clear
 sudo apt-get install git build-essential libxslt-dev python-dev python-virtualenv python-babel zlib1g-dev libffi-dev libssl-dev -y
+pip3 install flask_babel
 cd /usr/local
 sudo git clone https://github.com/asciimoo/searx.git
 sudo useradd searx -d /usr/local/searx
