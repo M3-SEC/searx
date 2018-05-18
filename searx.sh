@@ -27,4 +27,4 @@ echo "                                                                          
 echo "                                                                                           ";
 
 echo " Go to http://localhost:8888"
-python searx/webapp.py
+python /usr/local/searx/webapp.py
