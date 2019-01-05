@@ -8,5 +8,5 @@ A privacy-respecting, hackable metasearch engine.
 ```
 git clone https://github.com/M3-SEC/searx.git
 cd searx
-bash installer.sh
+sudo bash installer.sh
 ```
