@@ -17,5 +17,6 @@ virtualenv searx-ve
 . ./searx-ve/bin/activate
 ./manage.sh update_packages
 sed -i -e "s/ultrasecretkey/`openssl rand -hex 16`/g" searx/settings.yml
+sudo python /usr/local/searx/setup.py install
 clear
 echo "Everything done! To use the tool run ./searx.sh"
